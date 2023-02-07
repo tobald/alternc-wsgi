@@ -1,0 +1,8 @@
+This package adds the wsgi vhost type to alternc. As entry point the template
+looks for a file called "wsgi.py".
+
+This is a simple working example :
+
+    def application(environ, start_response):
+        start_response('200 OK', [('Content-Type', 'text/plain')])
+        yield b'Hello, World!\n'
