@@ -1,3 +1,12 @@
+alternc-wsgi (0.3) buster; urgency=medium
+
+  * templates: avoid process name duplicates
+  * templates: clean unused directive
+  * templates: configure apache-mpm-itk AssignUserId
+  * templates: run the wsgi process as user
+
+ -- Christophe Siraut <d@tobald.eu.org>  Wed, 08 Feb 2023 10:03:45 +0100
+
 alternc-wsgi (0.2) buster; urgency=medium
 
   * Update changelog for 0.1 release
